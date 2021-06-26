@@ -11,6 +11,7 @@ type Props = {
 
 export function Background({children}: Props){
     const{secondary80,secondary100} = theme.color;
+
     return(
         <LinearGradient 
         style={styles.container}

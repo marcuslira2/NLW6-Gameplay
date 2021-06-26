@@ -7,6 +7,7 @@ import AppLoading from 'expo-app-loading';
 
 
 import { SignIn } from './src/screens/signin';
+import{Home} from'./src/screens/home';
 import{Background} from './src/componentes/background';
 
 export default function App(){
@@ -28,7 +29,7 @@ export default function App(){
         backgroundColor="transparent"
         translucent
       />
-    <SignIn />
+    <Home />
     </Background>
   );
   
